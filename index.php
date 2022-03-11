@@ -1,10 +1,10 @@
-
+	
 <html><head>
 <link rel="stylesheet" type="text/css" href="src/main.css" />
 </head><body>
 <h1>YTCG base server</h1>
 <br>
-<br><p><a href="#" onclick="mw=window.open('editor.php','editor',width=340,height=300);return false;">Setup next new agent</a></p>
+<br><p><a href="#" onclick="window.open('editor.php','editor')">Setup next new agent</a></p>
 <br>
 <?php
 $dir = array_filter(glob('*'), 'is_dir');
@@ -36,4 +36,5 @@ foreach($dir as $item) {
 echo "</table>";
 ?>
 </body></html>
+
 

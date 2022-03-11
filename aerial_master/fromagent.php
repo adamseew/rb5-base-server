@@ -1,7 +1,7 @@
 
 <?php
 putenv('TMPDIR=/var/www/html/tmp');
-$uploaddir = '/var/www/html/fatman/files/';
+$uploaddir = 'files/';
 
 if (is_uploaded_file($_FILES['file']['tmp_name']))
 {
@@ -21,4 +21,5 @@ else
   print_r($_FILES);
 }
 ?>
+
 

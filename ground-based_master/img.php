@@ -22,9 +22,13 @@ td {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head><body>
-<h1>MadSpy</h1>
-<h3>Agent's screenshots list</h3>
-<p>Full list of uploaded screenshots by the agent. The entry will load on click.</p>
+<h1>YTCG base server</h1>
+<br>
+<br>
+<h3>Agent's shots list</h3>
+<br>
+<p>Full list of uploaded shots by the agent. Each entry loads on click.</p>
+<br>
 <br>
 <?php
 
@@ -46,4 +50,5 @@ foreach (glob("files/*.html") as $file)
 echo "</table>";
 ?>
 </body></html>                 
+
 

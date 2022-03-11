@@ -10,28 +10,12 @@ Status:
 <select name="status">
   <option value="Active">Active</option>
   <option value="Sleep">Sleep</option>
-  <option value="Selfdestroy">Selfdestroy</option>
 </select>
 </td></tr>
 <tr><td>
-Target process:
+Capture interval:
 </td><td>
-<input type="text" name="targetProcess" value="">
-</td></tr>
-<tr><td>
-Screen capturer interval:
-</td><td>
-<input type="number" name="screenCapturerInterval" value="30000">
-</td></tr>
-<tr><td>
-Screen width:
-</td><td>
-<input type="number" name="screenWidth" value="800">
-</td></tr>
-<tr><td>
-Screen height:
-</td><td>
-<input type="number" name="screenHeight" value="600">
+<input type="number" name="capturerInterval" value="1">
 </td></tr>
 <tr><td colspan="2">
 <center>
@@ -42,4 +26,5 @@ Screen height:
 </form> 
 </body>
 </html>
+
 

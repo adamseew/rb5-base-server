@@ -3,10 +3,7 @@
 if(isset($_POST["status"])){
 	file_put_contents('toagent.txt', 
 		'Status:' . $_POST["status"] . ';' .
-		'TargetProcess:' . $_POST["targetProcess"] . ';' .
-		'ScreenCapturerInterval:' . $_POST["screenCapturerInterval"] . ';' .
-		'ScreenWidth:' . $_POST["screenWidth"] . ';' .
-		'ScreenHeight:' . $_POST["screenHeight"]
+		'capturerInterval:' . $_POST["capturerInterval"]
 	);
 	echo '<html><head><link rel="stylesheet" type="text/css" href="../src/main.css" /></head><body>';
 	echo '<p><b>ok thank you</b>, the agent will be informed on the next scheduled update!</p>';
@@ -20,4 +17,5 @@ if(isset($_POST["status"])){
 	fclose($file_handle);
 }
 ?>
+
 
